@@ -1,6 +1,9 @@
 # Local Vision AI Demo
 
-This repository is POC of Computer Vision or Vision AI using a USB webcam (Logitech C270).
+This repository contains demos for Computer Vision or Vision AI using a USB webcam (Logitech C270). This includes:
+* Face detection
+* Full object detection
+* Image captioning
 
 ## Install Python & Libraries
 Make sure Python 3.8+ is installed. Install the following libraries:
@@ -10,6 +13,9 @@ pip install opencv-python
 pip install opencv-python-headless
 pip install numpy
 pip install ultralytics
+pip install transformers
+pip install torch torchvision
+pip install pillow
 ```
 
 Once all libraries are installed, run the Python code.
