@@ -1,0 +1,11 @@
+# VS Code
+.vscode/
+
+# YOLO models
+*.pt
+
+# Local only
+/demo-files/
+/prompts/
+/trash/
+/snapshots/
