@@ -1,9 +1,10 @@
 # Local Vision AI Demo
 
-This repository contains demos for Computer Vision or Vision AI using a USB webcam (Logitech C270). This includes:
+This repository contains demos for Vision AI using a USB webcam (ex. Logitech C270). This includes:
 * Face detection
 * Full object detection
 * Image captioning
+* OCR
 
 ## Install Python & Libraries
 Make sure Python 3.8+ is installed. Install the following libraries:
@@ -16,6 +17,7 @@ pip install ultralytics
 pip install transformers
 pip install torch torchvision
 pip install pillow
+pip install easyocr opencv-python
 ```
 
 Once all libraries are installed, run the Python code.
@@ -66,6 +68,14 @@ Run the `object-detection-image-captioning.py` code. A box with a label appears 
 
 ```
 python object-detection-image-captioning.py
+```
+
+## Optical Character Recognition (OCR) using EasyOCR
+
+Run the `ocr-demo.py` code. A box with a label appears around the text once OCR recognizes the text. Press `s` to take a snapshot of the image with the annotations, along with a text file containing the recognized text. Press `q` to quit.
+
+```
+python ocr-demo.py
 ```
 
 ## License
